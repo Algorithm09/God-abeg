@@ -1,0 +1,24 @@
+# Python cache and build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environments
+.venv/
+venv/
+
+# OS-specific
+.DS_Store
+
+# Environment variables
+.env*
+!.env.example  # keep example env files
+
+# Database and local data
+*.db
+faq_chromadb/
+
+# Deployment metadata
+.vercel/
